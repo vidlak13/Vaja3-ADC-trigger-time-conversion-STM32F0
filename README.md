@@ -7,3 +7,5 @@ h.) Pin pc9
 i.) Ko to spremenimo se vse spremeni na 16 MHz
 l.) 16000
 f.) HAL_GPIO_TogglePin(GPIOD, GPIO_PIN_9);
+
+komentar: S premikanjem potenciometra se spreminja vrednost adcVal od 0 do 252. Program deluje hitro.
